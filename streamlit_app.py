@@ -1,6 +1,6 @@
 import streamlit as st
+from streamlit_folium import folium_static
+import folium
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
-)
+st.title("Dynamic Energy Distrubution")
+
